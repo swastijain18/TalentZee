@@ -1,0 +1,22 @@
+.cource-card{
+    box-shadow: 10px 40px 30px 10px #eae9f1;
+}
+
+.card-name{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.cource-box{
+    padding: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.cource-box h1{
+    font-size: 3.5rem;
+    text-align: center;
+    color: black;
+    font-family: "Montserrat";
+    margin-bottom: 3rem;
+}

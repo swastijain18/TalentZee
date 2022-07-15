@@ -16,7 +16,7 @@ function CourceCard(props) {
             <Card style={{ width: '20rem'}} className="cource-card">
                 <Card.Img variant="top" src={studying} />
 
-                <Card.Body style={{ padding: "2.5rem", paddingTop: "1rem" }}>
+                <Card.Body style={{ padding: "2rem", paddingTop: "1rem" }}>
                     <Row style={{ paddingBottom: "0.5rem", fontSize: "0.9rem", color: "grey" }}>
                         <Col>
 
@@ -47,7 +47,9 @@ function CourceCard(props) {
                                 {props.Name}
                             </Card.Text>
                         </div>
-                        <Button variant="primary">{strings.MoreDetails}</Button>
+                        
+                        <Button variant="primary" style={{backgroundColor: "#ff8b94", borderColor: "#ff8b94"}}>
+                            <b>{strings.MoreDetails}</b></Button>
 
                     </Row>
 

@@ -1,9 +1,14 @@
 import React from "react";
 import { Form, Button, FormControl } from "react-bootstrap";
+import strings from "../string";
+
+
+
 function ContactForm() {
     return (
         <div>
-            <Form>
+            
+            <Form className="form">
                 <Form.Group className="mb-3" controlId="formBasicName">
 
                     <Form.Control type="text" placeholder="Enter Name" required/>
@@ -23,10 +28,11 @@ function ContactForm() {
                     <FormControl as="textarea" placeholder="Write Message" required/>
                 </Form.Group>
 
-                <Button variant="primary" type="submit">
-                    Submit
+                <Button variant="primary" type="submit" style={{backgroundColor: "#ff8b94", borderColor: "#ff8b94"}}>
+                    <b>{strings.Submit}</b>
                 </Button>
             </Form>
+           
         </div>
     )
 }

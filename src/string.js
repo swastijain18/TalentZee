@@ -18,7 +18,7 @@ let strings = new LocalizedStrings({
         bannertext: "Hire a Professional helper-Handle your task in less than 5 hours Hire a Professional helper-Handle your task in less than 5 hours",
     
         //Cources
-        Cources: "Cources",
+        Cources: "Courses",
         cource1: "Dance",
         cource2: "drawing",
         cource3: "Hairstyling",
@@ -41,6 +41,16 @@ let strings = new LocalizedStrings({
 
         //Contact page
         GetInTouch: "Get In Touch",
+        Email: "Email Us",
+        EmailID: "talent.zee4@gmail.com",
+        Phone: "Phone",
+        PhoneNo: "12345678",
+        Follow: "Follow Us",
+        Submit: "Submit",
+
+        //Footer 
+        QuickLink: "Quick Links",
+        TopProg: "Top Programs",
     }
 })
 

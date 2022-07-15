@@ -14,11 +14,11 @@ const responsive = {
         items: 5
     },
     desktop: {
-        breakpoint: { max: 3000, min: 1024 },
+        breakpoint: { max: 3000, min: 1025 },
         items: 3
     },
     tablet: {
-        breakpoint: { max: 1024, min: 464 },
+        breakpoint: { max: 1024, min: 465 },
         items: 2
     },
     mobile: {
@@ -31,7 +31,7 @@ const responsive = {
 function Cources() {
     return (
         <div className="cource-box">
-            <h1>{strings.Cources}</h1>
+            <h1 style={{color: "#5AEA8F"}}>{strings.Cources}</h1>
 
             <Carousel
                 swipeable={true}

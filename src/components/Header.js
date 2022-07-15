@@ -1,17 +1,19 @@
 import React from "react";
 import { Nav, Container, Navbar, Button } from "react-bootstrap";
 import strings from "../string";
-import "../stylesheets/Header.css"
+// import "../stylesheets/Header.css"
 import { BrowserRouter as Link } from "react-router-dom";
+import logo from "../images/logo.png"
+
 
 
 function Header() {
     return (
         <div >
-            <Navbar expand="lg" sticky="top" style={{ boxShadow: "0px 10px 20px #d6d5da", paddingBottom: "1.5rem", paddingTop: "1.5rem" }}>
+            <Navbar expand="lg" sticky="top" style={{ boxShadow: "0px 10px 20px #d6d5da" }}>
                 <Container>
                     <Link to="/">
-                        <Navbar.Brand href="#home">Online_Study</Navbar.Brand>
+                        <Navbar.Brand href="#home"><img src={logo} height={100} /></Navbar.Brand>
                     </Link>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
@@ -19,24 +21,25 @@ function Header() {
                         className="justify-content-end">
 
                         <Navbar.Text>
-                            <Nav className="me-auto" >
+                            <Nav className="me-auto" style={{ fontSize: "1.4rem", fontFamily: "Architects Daughter" }} >
 
-                                <Nav.Link className="mx-3" href="#home">{strings.Home}</Nav.Link>
-                                <Nav.Link className="mx-3" href="#home">{strings.Cources}</Nav.Link>
-                                <Nav.Link className="mx-3" href="#home">{strings.DailyFeed}</Nav.Link>
-                                <Nav.Link className="mx-3" href="#home">{strings.About}</Nav.Link>
+                                <Nav.Link className="mx-2" href="#home">{strings.Home}</Nav.Link>
+                                <Nav.Link className="mx-2" href="#home">{strings.Cources}</Nav.Link>
+                                <Nav.Link className="mx-2" href="#home">{strings.DailyFeed}</Nav.Link>
+                                <Nav.Link className="mx-2" href="#home">{strings.About}</Nav.Link>
 
-                                <Link to={"./Contact"}>
-                                {/* <a href="#Contact"> {strings.Contact}</a>
-                                <button href="#Contact" >{strings.Contact}</button> */}
-                                {strings.Contact}
-                                </Link>
+
+                                <Link to="/contact">{strings.Contact}</Link>
 
                             </Nav>
 
                         </Navbar.Text>
-                        <Button className="mx-3" ><b>{strings.Register}</b></Button>
-                        <Button className="mx-3" variant="outline-dark"><b>{strings.Login}</b></Button>
+                        <button className="mx-3 btn-color" >
+                    <b>{strings.Register}</b></button>
+
+
+                <button className="mx-3 btn-plain">
+                    <b>{strings.Login}</b></button>
                     </Navbar.Collapse>
 
 

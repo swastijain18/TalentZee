@@ -1,8 +1,25 @@
 .contact-box h1{
     text-align: center;
+    margin-bottom: 2rem;
+    color: #5AEA8F;
 }
 
 .contact-box{
     margin-top: 4rem;
     margin-bottom: 2rem;
+}
+
+.connections{
+    align-items: center;
+    text-align: center;
+}
+
+/* contact form  */
+.form{
+    margin: 4rem;
+    align-items: center;
+}
+
+.detail{
+    margin-bottom: 1.2rem;
 }

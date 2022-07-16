@@ -7,7 +7,7 @@ let strings = new LocalizedStrings({
         Home: "Home",
         Cources: "Cources",
         DailyFeed: "Daily Feeds",
-        About: "About",
+        AboutUs: "About Us",
         Contact: "Contact",
         Register: "Register",
         Login: "Log In",
@@ -17,7 +17,9 @@ let strings = new LocalizedStrings({
         tagline: "Online tutorial from top instructor.",
         bannertext: "Hire a Professional helper-Handle your task in less than 5 hours Hire a Professional helper-Handle your task in less than 5 hours",
     
-        //Cources
+
+
+        //COURSES SLIDER
         Cources: "Courses",
         cource1: "Dance",
         cource2: "drawing",
@@ -39,6 +41,19 @@ let strings = new LocalizedStrings({
 
         MoreDetails: "More Details",
 
+
+        // FEATURES
+        Features: "Features",
+        feature1: "feature1",
+        feature2: "feature2",
+        feature3: "feature3",
+        feature4: "feature4",
+        feature5: "feature5",
+        text1: "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        text2: "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        text3: "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        text4: "when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+
         //Contact page
         GetInTouch: "Get In Touch",
         Email: "Email Us",
@@ -48,6 +63,12 @@ let strings = new LocalizedStrings({
         Follow: "Follow Us",
         Submit: "Submit",
 
+
+        // ABOUT PAGE
+        abHead1: "Overall 250+ Courcses For kids and teenagers",
+        abDescription1: "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+        
+        
         //Footer 
         QuickLink: "Quick Links",
         TopProg: "Top Programs",

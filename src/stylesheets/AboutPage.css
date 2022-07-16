@@ -1,0 +1,24 @@
+.ab-outer{
+    display: flex;
+    padding: 4rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    justify-content: center;
+
+}
+
+.ab-left{
+    flex: 50%;
+    text-align: center;
+
+}
+
+.ab-right{
+    flex: 40%;
+    text-align: center;
+    /* align-items: center;
+    display: inline-block;
+    vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle; */
+}

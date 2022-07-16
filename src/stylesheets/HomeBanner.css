@@ -1,4 +1,6 @@
 .banner-box{
+    font-family: "Open-Sans";
+
     display: flex;
     margin-top: 9rem;
     margin-bottom: 7rem;

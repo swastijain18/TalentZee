@@ -1,0 +1,18 @@
+.feature-container{
+    font-family: "Open-Sans";
+    text-align: center;
+    /* align-items: center; */
+    padding: 4rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+
+/* Features Card */
+
+.f-card{
+    margin: 1rem;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+

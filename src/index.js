@@ -1,21 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import Contact from './components/Contact';
-
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+
+
+import App from "./App.js"
+import Home from "./components/Home.js"
+import Cources from "./components/Cources.js"
+import AboutPage from "./components/AboutPage.js"
+import DailyFeed from "./components/DailyFeed.js"
+import Contact from "./components/Contact.js"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    {/* <BrowserRouter> */}
-      <App />
-    {/* </BrowserRouter> */}
-  </React.StrictMode>
+  <BrowserRouter>
+    <Routes >
+      <Route path="/" element={<App />} />
 
+      {/* <Route index element={<Home />} /> */}
+
+      <Route path="cources" element={<Cources />} />
+      <Route path="aboutPage" element={<AboutPage />} />
+      <Route path="dailyFeed" element={<DailyFeed />} />
+      <Route path="contact" element={<Contact />} />
+      
+    </Routes >
+  </BrowserRouter>
 );
+
 
 reportWebVitals();

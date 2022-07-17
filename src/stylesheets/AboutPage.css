@@ -1,3 +1,9 @@
+.about-box h1{
+    margin-top: 3rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
 .ab-outer{
     display: flex;
     padding: 4rem;
@@ -8,7 +14,7 @@
 }
 
 .ab-left{
-    flex: 50%;
+    flex: 40%;
     text-align: center;
 
 }
@@ -16,9 +22,4 @@
 .ab-right{
     flex: 40%;
     text-align: center;
-    /* align-items: center;
-    display: inline-block;
-    vertical-align: middle;
-    display: table-cell;
-    vertical-align: middle; */
 }

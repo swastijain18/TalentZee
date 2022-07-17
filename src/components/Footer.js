@@ -8,6 +8,7 @@ import icon from "../images/icon.png";
 import { BsFillTelephoneFill, BsFacebook } from 'react-icons/bs'
 import { IoLogoWhatsapp } from 'react-icons/io'
 import { FaInstagramSquare } from 'react-icons/fa'
+import { Outlet, Link } from "react-router-dom";
 
 
 
@@ -48,11 +49,22 @@ function Footer() {
             <div className="ft-2">
                 <h3>{strings.QuickLink}</h3>
 
-                <li><a href="/" className="ft-links">{strings.Home}</a></li>
-                <li><a href="/" className="ft-links">{strings.Cources}</a></li>
-                <li><a href="/" className="ft-links">{strings.DailyFeed}</a></li>
-                <li><a href="/" className="ft-links">{strings.About}</a></li>
-                <li><a href="/" className="ft-links">{strings.Contact}</a></li>
+                <li> <Link className="mx-2 ft-links" style={{ textDecoration: "none", color:"black" }} to="/">
+                    {strings.Home}</Link></li>
+
+                <li> <Link className="mx-2 ft-links" style={{ textDecoration: "none", color:"black" }} target="_blank" to="/cources">
+                    {strings.Cources}</Link></li>
+
+                <li> <Link className="mx-2 ft-links" style={{ textDecoration: "none", color:"black" }} target="_blank" to="/dailyFeed">
+                    {strings.DailyFeed}</Link></li>
+
+                <li> <Link className="mx-2 ft-links" style={{ textDecoration: "none", color:"black" }} target="_blank" to="/aboutPage">
+                    {strings.AboutUs}</Link></li>
+
+                <li> <Link className="mx-2 ft-links" style={{ textDecoration: "none", color:"black" }} target="_blank" to="/contact">
+                    {strings.Contact}</Link></li>
+
+
             </div>
 
 
@@ -74,11 +86,13 @@ function Footer() {
                 <button className="mx-2 btn-color" >
                     <b>{strings.Register}</b></button>
 
+                <Link to="/contact" target="_blank">
+                    <button className="mx-2 btn-plain">
+                        <b>{strings.Contact}</b></button>
+                </Link>
 
-                <button className="mx-2 btn-plain">
-                    <b>{strings.Contact}</b></button>
             </div>
-
+            <Outlet />
         </div>
     )
 }

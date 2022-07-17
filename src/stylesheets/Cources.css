@@ -9,10 +9,10 @@
 
 .cource-box{
     font-family: "Open-Sans";
-
     padding: 3rem;
     margin-left: 4rem;
     margin-right: 4rem;
+    margin-bottom: 3rem;
 }
 
 .cource-box h1{
@@ -21,4 +21,5 @@
     color: black;
     font-family: "Montserrat";
     margin-bottom: 3rem;
+    font-weight: bolder;
 }

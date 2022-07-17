@@ -37,11 +37,12 @@
 
 .ft-links:hover {
     color: #ff8b94;
-    font-size: 1.2rem;
+    font-size: 1.2rem;  
 }
 
 .ft-2 li {
     list-style: none;
+    color: black;
     margin-bottom: 0.7rem;
 }
 

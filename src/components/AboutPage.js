@@ -11,22 +11,25 @@ import strings from "../string";
 
 function AboutPage() {
     return (
-        <div>
+        <div style={{fontFamily: "Open-Sans"}} className="about-box"> 
             <Header />
+
+            <h1 style={{color: "#5AEA8F"}}>{strings.AboutUs}</h1>
+
 
             <div className="ab-outer">
                 <div className="ab-left">
                     <img src={studying}></img>
                 </div>
 
-                <div className="ab-right">
+                <div className="ab-right" style={{ flex: "30%" }}>
                     <h2>{strings.abHead1}</h2>
                     <p>{strings.abDescription1}</p>
                 </div>
             </div>
 
             <div className="ab-outer">
-                <div className="ab-left" style={{ flex: "40%" }}>
+                <div className="ab-left" style={{ flex: "30%" }}>
                     <h2>{strings.abHead1}</h2>
                     <p>{strings.abDescription1}</p>
                 </div>

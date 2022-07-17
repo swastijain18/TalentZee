@@ -30,7 +30,7 @@ let allFeatures = [
 function Features() {
     return (
         <div className="feature-container">
-            <h1 style={{ color: "#5AEA8F",marginBottom:"3rem" }}>{strings.Features}</h1>
+            <h1 style={{ color: "#5AEA8F",marginBottom:"2rem" }}>{strings.Features}</h1>
 
             <div style={{ margin: "1rem", display:"flex",justifyContent:"center"}}>
 

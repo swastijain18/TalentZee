@@ -8,7 +8,7 @@ let strings = new LocalizedStrings({
         Cources: "Cources",
         DailyFeed: "Daily Feeds",
         AboutUs: "About Us",
-        Contact: "Contact",
+        Contact: "Contact Us",
         Register: "Register",
         Login: "Log In",
 

@@ -16,6 +16,8 @@ import { Outlet, Link } from "react-router-dom";
 function Footer() {
     return (
         <div className="ft-body">
+
+             {/* <-----------------------------------------COMPANY DEATILS---------------------------------------> */}
             <div className="ft-1">
                 <img src={icon} height={100} style={{ marginTop: "-23px" }}></img>
                 <h4>tagline</h4>
@@ -46,6 +48,8 @@ function Footer() {
                 </div>
             </div>
 
+
+              {/* <----------------------------------------- QUICK LINKS ---------------------------------------> */}
             <div className="ft-2">
                 <h3>{strings.QuickLink}</h3>
 
@@ -64,9 +68,10 @@ function Footer() {
                 <li> <Link className="mx-2 ft-links" style={{ textDecoration: "none", color:"black" }} target="_blank" to="/contact">
                     {strings.Contact}</Link></li>
 
-
             </div>
 
+
+            {/* <-----------------------------------------TOP PROGRAMMS LINKS ---------------------------------------> */}
 
             <div className="ft-2">
                 <h3>{strings.TopProg}</h3>
@@ -81,6 +86,9 @@ function Footer() {
             </div>
 
 
+
+            {/* ---------------------------- CONTACT AND REGISTRATION BUTTON --------------------- */}
+
             <div style={{ alignItems: "center", display: "flex", justifyContent: "center" }}>
 
                 <button className="mx-2 btn-color" >
@@ -88,9 +96,11 @@ function Footer() {
 
                 <Link to="/contact" target="_blank">
                     <button className="mx-2 btn-plain">
-                        <b>{strings.Contact}</b></button>
+                        <b>Contact</b></button>
                 </Link>
+            {/* --------------------------------------------------------------------------------- */}
 
+            
             </div>
             <Outlet />
         </div>

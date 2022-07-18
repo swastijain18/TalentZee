@@ -18,6 +18,7 @@ function Contact() {
         <div>
 
             <Header />
+
             <div className="contact-box">
                 <h1>{strings.GetInTouch}</h1>
 
@@ -26,6 +27,10 @@ function Contact() {
                     <div style={{ flex: "50%" }}>
                         <ContactForm />
                     </div>
+
+
+
+{/* ---------------------- CONTACT DEATILS AND LINKS------------------------ */}
 
                     <div style={{ flex: "50%" }} className="connections">
                         <div className="mail-section detail">

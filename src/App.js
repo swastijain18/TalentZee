@@ -24,20 +24,7 @@ function App() {
       <Cources />
       <Features />
       <Footer />
-      {/* <BrowserRouter>
-        <Routes >
-          <Route path="/" element={<Home />}>
 
-            <Route index element={<Home />} />
-
-            <Route path="cources" element={<Cources />} />
-            <Route path="aboutPage" element={<AboutPage />} />
-            <Route path="dailyFeed" element={<DailyFeed />} />
-            <Route path="contact" element={<Contact />} />
-          </Route>
-
-        </Routes >
-      </BrowserRouter> */}
 
     </div>
   );

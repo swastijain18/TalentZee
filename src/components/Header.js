@@ -22,14 +22,17 @@ function Header() {
                         className="justify-content-end">
 
 
+
+
                         {/* Links to connect to different pages */}
+
                         <Navbar.Text>
                             <Nav className="me-auto nav-link" style={{ fontSize: "1.4rem", textDecoration: "none" }} >
 
                                 <Link className="mx-2" style={{ textDecoration: "none" }} to="/">
                                     {strings.Home}</Link>
 
-                                <Link className="mx-2" style={{ textDecoration: "none" }} target="_blank" to="/cources">
+                                <Link className="mx-2" style={{ textDecoration: "none" }} target="_blank" to="/coursePage">
                                     {strings.Cources}</Link>
 
                                 <Link className="mx-2" style={{ textDecoration: "none" }} target="_blank" to="/dailyFeed">
@@ -41,9 +44,12 @@ function Header() {
                                 <Link className="mx-2" style={{ textDecoration: "none" }} target="_blank" to="/contact">
                                     {strings.Contact}</Link>
 
-
                             </Nav>
                         </Navbar.Text>
+
+
+                        {/* ---------------------- CONTACT AND REGISTRATION BUTTON --------------------- */}
+
                         <button className="mx-3 btn-color" >
                             <b>{strings.Register}</b></button>
 
@@ -52,14 +58,11 @@ function Header() {
                             <b>{strings.Login}</b></button>
                     </Navbar.Collapse>
 
-
                 </Container>
                 <Outlet />
             </Navbar>
 
-
         </div>
-
 
     )
 }

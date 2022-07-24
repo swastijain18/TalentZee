@@ -8,8 +8,8 @@ function FeatureCard(props) {
         <div className="f-card">
             <Card style={{ width: '17rem',backgroundColor:"#fcdcc7", padding:"1.5rem"}}>
                 <Card.Body>
-                    <Card.Title><b>{props.feature}</b></Card.Title>
-                    <Card.Text>
+                    <Card.Title className="row"><b>{props.feature}</b></Card.Title>
+                    <Card.Text className="row">
                         {props.descr}
                     </Card.Text>
                 </Card.Body>

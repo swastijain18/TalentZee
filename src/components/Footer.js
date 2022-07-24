@@ -28,7 +28,7 @@ function Footer() {
 
                 </div>
                 <div className="phone-section detail">
-                    <MdEmail />{strings.PhoneNo}
+                <BsFillTelephoneFill /> {strings.PhoneNo}
                 </div>
 
                 <div className="follow-section detail">

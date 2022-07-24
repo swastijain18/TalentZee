@@ -9,12 +9,13 @@
 
 .feature-container h1 {
     font-weight: bolder;
-
 }
+
 
 /* Features Card */
 
 .f-card {
+    text-align: left;
     margin: 1rem;
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);

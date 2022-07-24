@@ -34,6 +34,7 @@ function Cources() {
             <h1 style={{color: "#5AEA8F"}}>{strings.Cources}</h1>
 
             <Carousel
+                arrows={true}
                 swipeable={true}
                 draggable={true}
                 responsive={responsive}

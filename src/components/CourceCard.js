@@ -9,8 +9,9 @@ import yellowstar from "../images/yellowstar.svg"
 import strings from "../string";
 
 
-
 function CourceCard(props) {
+
+
     return (
         <div>
             <Card style={{ width: '20rem'}} className="cource-card">

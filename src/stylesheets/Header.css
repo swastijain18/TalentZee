@@ -1,0 +1,14 @@
+.link:hover{
+    background-color: #ff8b94;;
+    border-color: #ff8b94;
+    color: white;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    border-radius: 4px;
+}
+
+.link{
+    text-decoration: none;
+    background-color: white;
+    border: none;
+}
+

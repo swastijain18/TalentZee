@@ -31,7 +31,7 @@ const responsive = {
 function Cources() {
     return (
         <div className="cource-box">
-            <h1 style={{color: "#5AEA8F"}}>{strings.Cources}</h1>
+            <h1 style={{color: "#8BC2FF"}}>{strings.Cources}</h1>
 
             <Carousel
                 arrows={true}

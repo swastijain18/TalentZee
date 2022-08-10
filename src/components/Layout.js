@@ -22,7 +22,10 @@ function Layout() {
                 <Link to="/aboutPage">{strings.AboutUs}</Link>
 
             </li>
+            <li>
+                <Link to="/loginPage">{strings.Login}</Link>
 
+            </li>
             <Outlet />
         </div>
     )

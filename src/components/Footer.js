@@ -91,8 +91,10 @@ function Footer() {
 
             <div style={{ alignItems: "center", display: "flex", justifyContent: "center" }}>
 
+            <Link to="/RegisterPage" target="_blank">
                 <button className="mx-2 btn-color" >
                     <b>{strings.Register}</b></button>
+                    </Link>
 
                 <Link to="/contact" target="_blank">
                     <button className="mx-2 btn-plain">

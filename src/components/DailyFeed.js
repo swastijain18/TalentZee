@@ -11,7 +11,7 @@ function DailyFeed() {
         <div style={{ fontFamily: "Open-Sans" }}>
             <Header />
             <div className="df-container">
-                <h1 style={{ color: "#5AEA8F" }}>{strings.DailyFeed}</h1>
+                <h1 style={{ color: "#8BC2FF" }}>{strings.DailyFeed}</h1>
             </div>
 
             <Footer />

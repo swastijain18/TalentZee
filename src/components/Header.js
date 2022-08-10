@@ -4,6 +4,8 @@ import strings from "../string";
 import { Link, Outlet } from "react-router-dom";
 import logo from "../images/logo.png"
 
+import "../stylesheets/Header.css"
+
 
 
 function Header() {
@@ -30,32 +32,41 @@ function Header() {
                             <Nav className="me-auto nav-link" style={{ fontSize: "1.4rem", textDecoration: "none" }} >
 
                                 <Link className="mx-2" style={{ textDecoration: "none" }} to="/">
-                                    {strings.Home}</Link>
+                                    <button className="link">{strings.Home}</button>
+                                </Link>
 
                                 <Link className="mx-2" style={{ textDecoration: "none" }} target="_blank" to="/coursePage">
-                                    {strings.Cources}</Link>
+                                    <button className="link">{strings.Cources}</button>
+                                </Link>
 
                                 <Link className="mx-2" style={{ textDecoration: "none" }} target="_blank" to="/dailyFeed">
-                                    {strings.DailyFeed}</Link>
+                                    <button className="link">{strings.DailyFeed}</button>
+                                </Link>
 
                                 <Link className="mx-2" style={{ textDecoration: "none" }} target="_blank" to="/aboutPage">
-                                    {strings.AboutUs}</Link>
+                                    <button className="link">{strings.AboutUs}</button>
+                                </Link>
 
                                 <Link className="mx-2" style={{ textDecoration: "none" }} target="_blank" to="/contact">
-                                    {strings.Contact}</Link>
+                                    <button className="link">{strings.Contact}</button>
+                                </Link>
 
                             </Nav>
                         </Navbar.Text>
 
 
-                        {/* ---------------------- CONTACT AND REGISTRATION BUTTON --------------------- */}
+                        {/* ---------------------- LOGIN AND REGISTRATION BUTTON --------------------- */}
 
-                        <button className="mx-3 btn-color" >
-                            <b>{strings.Register}</b></button>
+                        <Link target="_blank" to="/registerPage">
+                            <button className="mx-3 btn-color" >
+                                <b>{strings.Register}</b></button>
 
+                        </Link>
 
-                        <button className="mx-3 btn-plain">
-                            <b>{strings.Login}</b></button>
+                        <Link target="_blank" to="/loginPage">
+                            <button className="mx-3 btn-plain">
+                                <b>{strings.Login}</b></button>
+                        </Link>
                     </Navbar.Collapse>
 
                 </Container>

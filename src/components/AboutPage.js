@@ -15,7 +15,7 @@ function AboutPage() {
         <div style={{ fontFamily: "Open-Sans" }} className="about-box">
             <Header />
 
-            <h1 style={{ color: "#5AEA8F" }}>{strings.AboutUs}</h1>
+            <h1 style={{ color: "#8BC2FF" }}>{strings.AboutUs}</h1>
 
 
             <div className="ab-outer">

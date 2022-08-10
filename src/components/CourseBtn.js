@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import strings from "../string.js";
-import studying from "../images/studying-girl.jpg"
+
+
 
 function CourseBtn(props) {
     return (
@@ -12,7 +12,7 @@ function CourseBtn(props) {
         }} >
 
             <b >{props.title}</b>
-            <img src={studying} width={80} height={80} style={{ float: "right" }}></img>
+            <img src={props.img} width={80} height={80} style={{ float: "right" }}></img>
 
         </Button>
     )

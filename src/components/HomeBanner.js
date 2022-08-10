@@ -11,6 +11,8 @@ function HomeBanner(){
             <div className="left-box">
                 <h1>{strings.tagline}</h1>
                 <div className="banner-text"> {strings.bannertext}</div>
+
+                
                 <Button style={{
                     paddingTop: "0.7rem", paddingBottom: "0.7rem", paddingRight: "2rem", paddingLeft: "2rem", fontSize: "1.1rem",
                     marginTop: "1.5rem", backgroundColor: "#ff8b94", borderColor: "#ff8b94"}}>
